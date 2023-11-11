@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@400;600&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(25,25,25);
+    color: white;
+    margin: 0px;
+}
+
+.footer {
+    border: 2px solid rgb(53, 53, 53);
+    display: flex;
+    background-color: rgb(36, 36, 36);
+    border-radius: 16px;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+    color: rgb(70, 70, 70);
+}
+
+.header {
+    border: 2px solid rgb(53, 53, 53);
+    display: flex;
+    background-color: rgb(36, 36, 36);
+    border-radius: 16px;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    position: relative;
+}
+
+.menu {
+    display: flex;
+    list-style:none;
+}
+
+.menu a{
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    transition: 0.25s;
+    padding: 5px 16px;
+    margin: 5px 10px;
+    border-radius: 16px;
+}
+.menu a:hover{
+    background-color: #363636;
+}
+
+.kys {
+    margin: auto;
+    display: flex;
+    list-style:none;
+    text-align: center;
+    width: 1200px;
+    padding: 10px 35px;
+    margin-bottom: 50px;
+}
+.kys div{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(83,208,173,0.10);
+    border: 2px solid rgb(83,208,173);
+    border-radius: 32px;
+    padding: 25px 0px;
+}
+.kys a {
+    color: white;
+    text-decoration: none;
+    background-color: #53d0ad;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    border-radius: 16px;
+    font-weight: 600;
+    font-family: "Manrope", sans-serif;
+    transition: 0.2s;
+    margin: 0px 15px;
+}
+.kys a:hover {
+    color: black;
+    background-color: white;
+}
+
+.kys>div>img{
+    background-color: rgba(83,208,173,0.10);
+    width: 50px;
+    height: 50px;
+    border: 2px solid #53d0ad;
+    padding: 10px;
+    border-radius: 16px;
+}
+.kys>div>h1 {
+    font-size: 24px;
+}
+.kys>div>p {
+    font-size: 16px;
+    margin: 15px 10px;
+}
+
+.kys>.red {
+    background-color: rgba(208, 83, 83, 0.1);
+    border: 2px solid rgb(208, 83, 83);
+}
+.kys>.red>img {
+    background-color: rgba(208, 83, 83, 0.1);
+    border: 2px solid rgb(208, 83, 83);
+}
+
+.kys>.purple {
+    background-color: rgba(193, 83, 208, 0.1);
+    border: 2px solid rgb(193, 83, 208);
+}
+.kys>.purple>img {
+    background-color: rgba(193, 83, 208, 0.1);
+    border: 2px solid rgb(193, 83, 208);
+}
+
+.kys>.blue {
+    background-color: rgba(83, 133, 208, 0.1);
+    border: 2px solid rgb(83, 133, 208);
+}
+.kys>.blue>img {
+    background-color: rgba(83, 133, 208, 0.1);
+    border: 2px solid rgb(83, 133, 208);
+}
+
+.kys>.gray {
+    background-color: rgba(70, 70, 70, 0.1);
+    border: 2px solid rgb(70, 70, 70);
+}
+.kys>.gray>img {
+    background-color: rgba(70, 70, 70, 0.1);
+    border: 2px solid rgb(70, 70, 70);
+}
+
+
+.container>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 16px;
+    padding: 10px;
+}
+
+.container{
+    width: 1200px;
+    margin: 50px auto;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(83,208,173,0.10);
+    border: 2px solid #53d0ad;
+    border-radius: 32px;
+    padding: 15px 0px;
+}
+.textvidelka {
+    color: #53d0ad;
+}
+
+.container a {
+    color: white;
+    text-decoration: none;
+    background-color: #53d0ad;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    border-radius: 16px;
+    font-weight: 600;
+    font-family: "Manrope", sans-serif;
+}
+.container a:hover {
+    color: black;
+    background-color: white;
+}
+
+.red {
+    background-color: rgba(208, 83, 83, 0.1);
+    border: 2px solid rgb(208, 83, 83);
+}
+.red>img {
+    background-color: rgba(208, 83, 83, 0.1);
+    border: 2px solid rgb(208, 83, 83);
+}
+.red>h1 {
+    color: rgb(208, 83, 83);
+}
+
+
+.purple {
+    background-color: rgba(193, 83, 208, 0.1);
+    border: 2px solid rgb(193, 83, 208);
+}
+.purple>img {
+    background-color: rgba(193, 83, 208, 0.1);
+    border: 2px solid rgb(193, 83, 208);
+}
+.purple>h1 {
+    color: rgb(193, 83, 208);
+}
+
+.blue {
+    background-color: rgba(83, 133, 208, 0.1);
+    border: 2px solid rgb(83, 133, 208);
+}
+.blue>img {
+    background-color: rgba(83, 133, 208, 0.1);
+    border: 2px solid rgb(83, 133, 208);
+}
+.blue>h1 {
+    color: rgb(83, 133, 208);
+}
+
+.gray {
+    background-color: rgba(70, 70, 70, 0.1);
+    border: 2px solid rgb(70, 70, 70);
+}
+.gray>img {
+    background-color: rgba(70, 70, 70, 0.1);
+    border: 2px solid rgb(70, 70, 70);
+}
+.gray>h1 {
+    color: rgb(100, 100, 100);
+}
+.gray>a {
+    background-color: rgb(100, 100, 100);
+}
+
+
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
+@media screen and (max-width: 520px) and (min-width: 320px) { 
+    body{
+        font-family: 'Manrope', sans-serif;
+        background-color: rgb(25,25,25);
+        color: white;
+        margin: 0px;
+    }
+    
+    .header {
+        border: 2px solid rgb(53, 53, 53);
+        margin-top: 5px;
+        display: flex;
+        background-color: rgb(36, 36, 36);
+        border-radius: 16px;
+        justify-content: center;
+        text-align: center;
+        margin-left: 8px;
+        margin-right: 8px;
+        position: relative;
+
+    }
+    .menu {
+        display: flex;
+        list-style:none;
+        
+    }
+    .menu a{
+        font-family: 'Manrope', sans-serif;
+        font-weight: 600;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        transition: 0.25s;
+        padding: 10px 5px;
+        
+    }
+    .container{
+        width: 320px;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .container p {
+        font-size: 18px;
+    }
+    .container h1 {
+        font-size: 28px;
+    }
+    .container a {
+        margin: 0px 15px;
+    }
+    .container>img{
+        width: 40px;
+        height: 40px;
+        border-radius: 16px;
+    
+}
+}
