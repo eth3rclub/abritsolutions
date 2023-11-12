@@ -91,7 +91,7 @@ body{
 .kys a {
     color: white;
     text-decoration: none;
-    background-color: #53d0ad;
+    background-color: #646464;
     display: flex;
     justify-content: center;
     padding: 10px 0px;
@@ -116,14 +116,7 @@ body{
     padding: 10px;
     border-radius: 16px;
 }
-.container>img{
-    background-color: rgba(83,208,173,0.10);
-    width: 50px;
-    height: 50px;
-    border: 2px solid #53d0ad;
-    padding: 10px;
-    border-radius: 16px;
-}
+
 .kys>div>h1 {
     font-size: 24px;
 }
@@ -175,7 +168,14 @@ body{
     border-radius: 16px;
     padding: 10px;
 }
-
+.container>img{
+    background-color: rgba(83,208,173,0.10);
+    width: 50px;
+    height: 50px;
+    border: 2px solid #53d0ad;
+    padding: 10px;
+    border-radius: 16px;
+}
 .container{
     width: 1200px;
     margin: 50px auto;
@@ -201,6 +201,8 @@ body{
     border-radius: 16px;
     font-weight: 600;
     font-family: "Manrope", sans-serif;
+    margin: 0px 10px;
+    border: 2px solid #53d0ad;
 }
 .container a:hover {
     background-color: white;
@@ -218,6 +220,10 @@ body{
 }
 .red>h1 {
     color: rgb(208, 83, 83);
+}
+.red a{
+    background-color: rgb(208, 83, 83);
+    border: 2px solid rgb(255, 112, 112);
 }
 
 
@@ -287,7 +293,9 @@ body{
     animation-play-state: running;
     animation-iteration-count: infinite;
 }
-
+.container>audio::-webkit-media-controls-panel {
+    background-color: #5be6be;
+}
 @keyframes colorchangeback {
     0% {
 
@@ -350,6 +358,15 @@ body{
     100% {
         transform: rotate(180deg);
     }
+}
+
+.limboba a{ 
+    margin: 10px 450px;
+    transition: 0.2s;
+}
+
+.textvidelka {
+    color: #53d0ad;
 }
 .noselect {
     -webkit-touch-callout: none; /* iOS Safari */
