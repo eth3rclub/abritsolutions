@@ -30,9 +30,25 @@ body{
     position: relative;
 }
 
+.menu img{
+    width: 45px;
+    height: 45px;
+    border-radius: 12px;
+    padding: 3.5px;
+    margin: 5px 100px 5px 0px;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+}
+.menu img:hover{
+    background-color: #363636;
+}
+
 .menu {
     display: flex;
     list-style:none;
+    justify-content: center;
+    
 }
 
 .menu a{
@@ -41,10 +57,11 @@ body{
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 25px;
-    transition: 0.25s;
+    transition: 0.5s;
     padding: 5px 16px;
     margin: 5px 10px;
     border-radius: 16px;
+    
 }
 .menu a:hover{
     background-color: #363636;
@@ -66,6 +83,10 @@ body{
     border: 2px solid rgb(83,208,173);
     border-radius: 32px;
     padding: 25px 0px;
+    transition: 0.5s;
+}
+.kys div:hover{
+    transform: scale(1.05);
 }
 .kys a {
     color: white;
@@ -79,13 +100,23 @@ body{
     font-family: "Manrope", sans-serif;
     transition: 0.2s;
     margin: 0px 15px;
+    border: 2px solid rgb(124, 124, 124);
 }
 .kys a:hover {
-    color: black;
     background-color: white;
+    border: 2px solid white;
+    color: black;
 }
 
 .kys>div>img{
+    background-color: rgba(83,208,173,0.10);
+    width: 50px;
+    height: 50px;
+    border: 2px solid #53d0ad;
+    padding: 10px;
+    border-radius: 16px;
+}
+.container>img{
     background-color: rgba(83,208,173,0.10);
     width: 50px;
     height: 50px;
@@ -154,9 +185,10 @@ body{
     border: 2px solid #53d0ad;
     border-radius: 32px;
     padding: 15px 0px;
+    transition: 0.5s;
 }
-.textvidelka {
-    color: #53d0ad;
+.container:hover {
+    transform: scale(1.05);
 }
 
 .container a {
@@ -171,8 +203,9 @@ body{
     font-family: "Manrope", sans-serif;
 }
 .container a:hover {
-    color: black;
     background-color: white;
+    border: 2px solid white;
+    color: black;
 }
 
 .red {
@@ -227,8 +260,97 @@ body{
     background-color: rgb(100, 100, 100);
 }
 
+.opacityanim {
+    animation-name: opacityanimation;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+}
+.picanim {
+    animation-name: pic;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+}
 
+.colorchangeblock {
+    animation-name: colorchangeback;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+}
+.clrz {
+    animation-name: clrz;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+}
 
+@keyframes colorchangeback {
+    0% {
+
+    }
+    20% {
+        background-color: rgba(208, 83, 83, 0.1);
+        border: 2px solid rgb(208, 83, 83);
+    }
+    40% {
+        background-color: rgba(83, 133, 208, 0.1);
+        border: 2px solid rgb(83, 133, 208);
+    }
+    60% {
+        background-color: rgba(193, 83, 208, 0.1);
+        border: 2px solid rgb(193, 83, 208);
+    }
+    80% {
+        background-color: rgba(70, 70, 70, 0.1);
+        border: 2px solid rgb(70, 70, 70);
+    }
+}
+
+@keyframes colorchangebackforbutton {
+    0% {
+    }
+    25% {
+        border: 2px solid rgb(255, 100, 100); 
+        background-color: rgb(208, 83, 83);
+    }
+    50% {
+        border: 2px solid rgb(98, 152, 240); 
+        background-color: rgb(83, 133, 208);
+    }
+    75% {
+        border: 2px solid #5be6be; 
+        background-color: #42aa8d;
+    }
+}
+
+@keyframes clrz {
+    0% {
+
+    }
+    20% {
+        background-color: rgba(208, 83, 83, 0.1);
+        border: 2px solid rgb(208, 83, 83);
+    }
+    40% {
+        background-color: rgba(83, 133, 208, 0.1);
+        border: 2px solid rgb(83, 133, 208);
+    }
+    60% {
+        background-color: rgba(193, 83, 208, 0.1);
+        border: 2px solid rgb(193, 83, 208);
+    }
+    80% {
+        background-color: rgba(70, 70, 70, 0.1);
+        border: 2px solid rgb(70, 70, 70);
+    }
+    100% {
+        transform: rotate(180deg);
+    }
+}
 .noselect {
     -webkit-touch-callout: none; /* iOS Safari */
       -webkit-user-select: none; /* Safari */
@@ -296,6 +418,5 @@ body{
         width: 40px;
         height: 40px;
         border-radius: 16px;
-    
 }
 }
